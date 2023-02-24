@@ -8,12 +8,12 @@
 #include "utilities.h"
 #include "eeprom-board.h"
 
-uint8_t EepromMcuReadBuffer( uint16_t addr, uint8_t *buffer, uint16_t size )
+LmnStatus_t EepromMcuReadBuffer( uint16_t addr, uint8_t *buffer, uint16_t size )
 {
-    return FAIL;
+    return LMN_STATUS_ERROR;
 }
 
-uint8_t EepromMcuWriteBuffer( uint16_t addr, uint8_t *buffer, uint16_t size )
+LmnStatus_t EepromMcuWriteBuffer( uint16_t addr, uint8_t *buffer, uint16_t size )
 {
-    return FAIL;
+    return LMN_STATUS_ERROR;
 }
